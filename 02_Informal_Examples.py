@@ -71,5 +71,5 @@ print(word[-2]) # second-last character
 print(word[-6]) # first character
 
 # Note how the start is always included, and the end always excluded. This makes sure that s[:i] + s[i:] is always equal to s.
-print(word[:2] + word[2:])  # Python
-print(word[:4] + word[4:])  # Python
+print(word[:2] + word[2:])
+print(word[:4] + word[4:])
