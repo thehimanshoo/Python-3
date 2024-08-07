@@ -7,10 +7,15 @@ for word in words:
 # Create a sample collection
 users = {
     'Alice': 'active',
+    'Diana': 'Semi-active',
     'Bob': 'inactive',
+    'Mathew': 'Semi-active',
     'Charlie': 'active',
-    'Diana': 'inactive'
+    'Cercy': 'Semi-active',
+    'Diana': 'inactive',
+    'Laura': 'Semi-active'  
 }
+
 print(f"Simple Collection:- {users}")
 
 # Strategy:  Iterate over a copy
@@ -25,7 +30,7 @@ New_Collection = {}
 
 # Checking for the required value to push in New_Collection
 for newUser, newUserStatus in users.items():
-    if newUserStatus == 'active':  # 'inactive' status people won't print because in above line of code, we've deleted 'inactive' status people
+    if newUserStatus == 'Semi-active':  # 'inactive' status people won't print because in above line of code, we've deleted 'inactive' status people
         New_Collection[newUser] = newUserStatus
         
 print(f"New user collection object:- {New_Collection}")
