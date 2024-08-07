@@ -67,5 +67,5 @@ char = ['a', 'b', 'c']
 num = [1, 2, 3]
 nestList = [char, num]
 print(f"Nest List:- {nestList}")
-print(f"Accessing Nested List at index 0: {nestList[0][1]}")
-print(f"Accessing Nested List at index 1: {nestList[1][2]}")
+print(f"Accessing Nested List at index 0:- {nestList[0][1]}")
+print(f"Accessing Nested List at index 1:- {nestList[1][2]}")
