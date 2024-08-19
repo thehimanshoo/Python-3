@@ -32,6 +32,6 @@ def check_point(point):
         case (x, y):
             print(f"X={x}, Y={y}")
         case _:
-            raise ValueError("Not a point")
+            raise ValueError("Not a correct point")
 
 print(check_point((4,8)))
